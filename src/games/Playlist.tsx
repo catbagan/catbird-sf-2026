@@ -20,6 +20,15 @@ export default function Playlist({ onComplete }: { onComplete: () => void }) {
         setHasSong(true)
         const a = new Audio(PLAYLIST.songFile)
         a.loop = false
+        if (PLAYLIST.songStartAt > 0) {
+          a.addEventListener(
+            'loadedmetadata',
+            () => {
+              a.currentTime = PLAYLIST.songStartAt
+            },
+            { once: true }
+          )
+        }
         audioRef.current = a
         // try to autoplay (the petting gesture usually unlocks audio on ios) —
         // if safari says no, the big play button is right there
@@ -56,11 +65,7 @@ export default function Playlist({ onComplete }: { onComplete: () => void }) {
 
       <div className="vinyl-stage" onClick={hasSong ? toggle : undefined}>
         <div className={'vinyl' + (playing ? ' spinning' : '')}>
-          <div className="vinyl-label">
-            b's
-            <br />
-            mix
-          </div>
+          <div className="vinyl-label">{PLAYLIST.vinylLabel}</div>
         </div>
         {hasSong && <div className="vinyl-btn">{playing ? '❚❚' : '▶'}</div>}
       </div>

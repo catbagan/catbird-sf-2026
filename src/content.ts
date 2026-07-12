@@ -118,11 +118,12 @@ export const FORTUNE =
 
 // ── day 4 · the mix ────────────────────────────────────────────────
 export const PLAYLIST = {
-  // ✏️ paste your real playlist link (spotify links get a nice embedded player)
-  url: 'https://open.spotify.com/playlist/PASTE_YOURS_HERE',
-  // ✏️ drop an mp3 at public/song.mp3 and it'll autoplay (or show a play button)
+  url: 'https://open.spotify.com/playlist/6XQPixxITG7E1qg6TQxOiC',
+  // the mp3 lives at public/song.mp3
   songFile: '/song.mp3',
-  songLabel: '✏️ our song — the artist', // ✏️ EDIT ME
+  songLabel: 'california — lapeer',
+  songStartAt: 86, // seconds — drop the needle right at 1:26
+  vinylLabel: 'hey girl\nhey\nvol 3',
 }
 
 // ── day 5 · the boarding passes ────────────────────────────────────
