@@ -70,7 +70,7 @@ counting down the days now eh? i can't wait to show you some big trees, eat some
     note: `you showed me this song when we first started dating. you said it reminded you of me — not just because of california, but because of the car kazoo.
 i can't wait to drive down the coast with you. i can't wait to have you in my arms on our flight to sf.`,
     ps: `i told buffett to send us pics of max… he better, or else!`,
-    fact: `cable car operators hold a bell-ringing championship in union square every year — since 1949, real rivalries. this city will turn anything into music.`,
+    fact: `the giants mascot is a seal named lou seal. his full name is luigi francisco seal, and he wears a bright orange turtleneck.`,
   },
   {
     date: '2026-07-13',
@@ -82,7 +82,7 @@ i can't wait to drive down the coast with you. i can't wait to have you in my ar
 my sister is gonna think you're even prettier in person and steven is gonna love your shit talk. i'm gonna love it all.
 i want to be a part of your life and i want you in mine. i love you and i love us. wheels up! ✈️`,
     ps: `i'm sure some of max's fur is coming with us, so u can't miss him _that_ much!`,
-    fact: `pack a layer: july in sf runs foggy and low-60s — locals know september is the real summer. if karl rolls over the bridge while we cross it, that's him saying hi.`,
+    fact: `at certain wind speeds the golden gate bridge will sing. sounds more like a hum tbh.`,
   },
 ]
 
