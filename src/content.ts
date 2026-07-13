@@ -81,7 +81,7 @@ i can't wait to drive down the coast with you. i can't wait to have you in my ar
     note: `today's the day baby girl. when we land, we're gonna grab our car, scoop some in-n-out, and drive down the 101.
 my sister is gonna think you're even prettier in person and steven is gonna love your shit talk. i'm gonna love it all.
 i want to be a part of your life and i want you in mine. i love you and i love us. wheels up! ✈️`,
-    ps: `i'm sure some of max's fur is coming with us, so u can't miss him _that_ much!`,
+    ps: `i love doing grandma shit like u`,
     fact: `at certain wind speeds the golden gate bridge will sing. sounds more like a hum tbh.`,
   },
 ]
@@ -132,5 +132,5 @@ export const PLAYLIST = {
 export const PASS = {
   images: ['/boarding-pass-1.png', '/boarding-pass-2.png'],
   placeholder: 'the golden tickets land here sunday night.\ndaniel has ONE job. 🫡',
-  message: 'see you at the gate, b 🧡',
+  message: 'see you at the lounge, bird <3',
 }

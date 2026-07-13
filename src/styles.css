@@ -1100,21 +1100,27 @@ button {
   z-index: 5;
 }
 .pass-imgs {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  margin-top: 10px;
+  position: relative;
+  margin-top: 42px;
   width: min(340px, 88vw);
 }
 .pass-img {
+  position: relative;
+  z-index: 2;
   width: 100%;
   border-radius: 16px;
   border: 5px solid #fff;
   box-shadow: var(--shadow);
   transform: rotate(-1.5deg);
 }
-.pass-img:nth-child(2n) {
-  transform: rotate(1.6deg);
+/* daniel's pass peeks out from behind hers */
+.pass-img:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  top: -34px;
+  right: -10px;
+  transform: rotate(4deg) scale(0.96);
+  filter: brightness(0.97);
 }
 .pass-msg {
   font-family: 'Caveat', cursive;
